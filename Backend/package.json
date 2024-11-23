@@ -6,9 +6,9 @@
   "type": "module",
   "scripts": {
     "dev" : "nodemon index.js",
-    "start": "node index.js",
-    "build": "npm install && npm install --prefix FrontEnd && npm run build --prefix FrontEnd"
-  },
+        "build": "npm install && npm run build --prefix FrontEnd",
+        "start": "node index.js"
+      },
   "keywords": [
     "MERN"
   ],
